@@ -1,6 +1,6 @@
 {
   "name": "to-quoted-string",
-  "description": "Turn source code into templates to be used as modules.",
+  "description": "Turn source code into quoted strings to be used as templates/modules.",
   "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/to-quoted-string",
   "author": {

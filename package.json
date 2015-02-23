@@ -1,0 +1,47 @@
+{
+  "name": "to-quoted-string",
+  "description": "Turn source code into templates to be used as modules.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/to-quoted-string",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/to-quoted-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/to-quoted-string/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/to-quoted-string/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "to-quoted-string": "./cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "log-symbols": "^1.0.1",
+    "minimist": "^1.1.0",
+    "to-double-quotes": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
